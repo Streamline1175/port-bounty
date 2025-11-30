@@ -40,7 +40,6 @@
     "shortDescription": "Network port and process management utility",
     "longDescription": "Process Surgeon is a cross-platform desktop application that helps developers manage network ports and processes. Find what's using a port, kill processes gracefully or forcefully, manage Docker containers, and more.",
     "copyright": "Copyright © 2025 Streamline1175",
-    "licenseFile": "../LICENSE",
     "linux": {
       "appimage": {
         "bundleMediaFramework": true

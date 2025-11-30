@@ -60,8 +60,8 @@ libc = "0.2"
 libproc = "0.14"
 
 [target.'cfg(target_os = "windows")'.dependencies]
-windows = { version = "0.58", features = ["Win32_Foundation", "Win32_System_Threading", "Win32_Security", "Win32_NetworkManagement_IpHelper"] }
+windows = { version = "0.59", features = ["Win32_Foundation", "Win32_System_Threading", "Win32_Security"] }
 
 [target.'cfg(target_os = "linux")'.dependencies]
-procfs = "0.17"
+procfs = "0.16"
 
