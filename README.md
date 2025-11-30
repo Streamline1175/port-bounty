@@ -177,6 +177,4 @@ This project is licensed under the MIT License - see the [LICENSE](process-surge
 
 **[⬆ Back to top](#-process-surgeon)**
 
-Made with ❤️ by [Streamline1175](https://github.com/Streamline1175)
-
 </div>
