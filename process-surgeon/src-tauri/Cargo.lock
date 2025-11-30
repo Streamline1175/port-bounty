@@ -3181,7 +3181,7 @@ dependencies = [
 
 [[package]]
 name = "process-surgeon"
-version = "0.1.0-beta.1"
+version = "0.1.0"
 dependencies = [
  "anyhow",
  "bollard",

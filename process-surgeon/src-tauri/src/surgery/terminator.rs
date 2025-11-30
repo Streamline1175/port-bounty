@@ -151,12 +151,12 @@ impl ProcessTerminator {
         let sysinfo_pid = Pid::from_u32(pid);
         
         if let Some(process) = self.system.process(sysinfo_pid) {
-            if let Some(process_uid) = process.user_id() {
+            if let Some(_process_uid) = process.user_id() {
                 // On Unix, compare UIDs
                 #[cfg(unix)]
                 {
                     let current_uid = unsafe { libc::getuid() };
-                    return **process_uid == current_uid;
+                    return **_process_uid == current_uid;
                 }
                 
                 #[cfg(windows)]

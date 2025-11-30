@@ -1,6 +1,6 @@
 [package]
 name = "process-surgeon"
-version = "0.1.0-beta.1"
+version = "0.1.0"
 description = "A cross-platform network resource management utility for developers"
 authors = ["Streamline1175"]
 license = "MIT"
